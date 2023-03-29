@@ -10,6 +10,7 @@ export const ContainerList = styled.div`
   align-items: center;
   gap: 10px;
   padding: 20px;
+  flex-wrap: wrap;
   @media screen and (max-width: 1080px) {
     flex-direction: column;
     height: 100%;
